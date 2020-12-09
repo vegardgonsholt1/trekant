@@ -1,5 +1,9 @@
-function setup() {
+const $ = (id) => document.getElementById(id);
 
+function setup() {
+const inpVinkelA = $("vinkelA");
+const inpVinkelB = $("vinkelB");
+const inpVinkelC = $("vinkelC");
 }
 
 function butCalculate_onclick() {
